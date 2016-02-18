@@ -1,0 +1,37 @@
+{
+  "name": "leaddyno",
+  "version": "0.0.0",
+  "description": "(Unofficial) Lead Dyno API Client Library",
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com>",
+  "contributors": [],
+  "repository": "leadgumshoe/leaddyno",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha test/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@leadgumshoe/eslint-config": "^0.3.0",
+    "eslint": "^1.10.3",
+    "eslint-plugin-mocha": "^0.5.1",
+    "eslint-plugin-react": "^3.16.1",
+    "expect": "^1.14.0",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "affiliate",
+    "api",
+    "leaddyno",
+    "rest"
+  ]
+}
