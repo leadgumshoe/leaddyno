@@ -12,14 +12,24 @@
   "main": "index.js",
   "files": [
     "LICENSE",
-    "index.js"
+    "index.js",
+    "helpers.js",
+    "visitors.js",
+    "leads.js",
+    "purchases.js"
   ],
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "mocha test/"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash.assign": "^4.0.3",
+    "origami": "^0.3.0",
+    "rest": "^1.3.1",
+    "url-join": "0.0.1",
+    "when": "^3.7.7"
+  },
   "devDependencies": {
     "@leadgumshoe/eslint-config": "^0.4.0",
     "eslint": "^2.0.0",
